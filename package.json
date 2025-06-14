@@ -7,15 +7,23 @@
     "start": "npx tsx src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "sitemap",
+    "typo",
+    "checker",
+    "openai",
+    "nodejs",
+    "website",
+    "spellcheck",
+    "typescript"
+  ],
+  "author": "Dawid Matyjasik <dawidspisak@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "A Node.js tool that fetches all URLs from a sitemap, downloads each page, and uses OpenAI to find and report typos.",
   "devDependencies": {
     "@types/cheerio": "^1.0.0",
     "@types/node": "^22.15.30",
     "@types/xml2js": "^0.4.14",
-    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
