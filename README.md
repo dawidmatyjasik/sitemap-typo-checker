@@ -18,8 +18,8 @@ A Node.js tool to analyze website pages for typos using OpenAI. It fetches all U
 
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
-   cd page-checker
+   git clone sitemap-typo-checker
+   cd sitemap-typo-checker
    ```
 2. Install dependencies:
    ```sh
@@ -47,7 +47,7 @@ npx tsx src/index.ts <sitemap-url>
 ## Example
 
 ```sh
-npm start -- https://example.com/sitemap.xml
+npm start -- https://www.google.com/sitemap.xml
 ```
 
 ## License
